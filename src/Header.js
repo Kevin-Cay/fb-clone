@@ -14,8 +14,6 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import {useStateValue} from './StateProvider'
 
 
-
-
 function Header() {
     const [{user}, dispatch] = useStateValue();
 
@@ -28,6 +26,7 @@ function Header() {
                 <input type="text" placeholder="Buscar en facebook" />
                 </div>
             </div>
+            
             <div className="header_center">
                 <div className="header_option header_option--active">
                     <HomeIcon frontSize="large" />
