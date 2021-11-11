@@ -66,3 +66,22 @@
 .post_option:hover>.MuiSvgIcon-root {
     color: #2e81f4;
 }
+
+@media screen and (max-width: 680px) {
+    .post_topInfo>h3 {
+        font-size: 16px;
+    }
+    .post_topInfo>p {
+        font-size: 10px;
+    }
+    .post_button>p {
+        font-size: 16px;
+    }
+    .post_options {
+        padding: 10px 5px;
+    }
+    .post_option>p {
+        margin-left: 5px;
+        font-size: 10px;
+    }
+}

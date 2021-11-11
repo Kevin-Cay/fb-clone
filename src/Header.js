@@ -14,6 +14,8 @@ import ExpandMoreIcon from '@material-ui/icons/ExpandMore'
 import {useStateValue} from './StateProvider'
 
 
+
+
 function Header() {
     const [{user}, dispatch] = useStateValue();
 
@@ -43,11 +45,12 @@ function Header() {
                     <SupervisorAccountIcon frontSize="large" />
                 </div>
             </div>
-            <div className="header_right">
-                <div className="header_info">
+            <div className="header_info">
                     <Avatar src={user.photoURL} />
                     <h4>{user.displayName}</h4>
                 </div>
+            <div className="header_right">
+                
                 <IconButton>
                     <AddIcon />
                 </IconButton>

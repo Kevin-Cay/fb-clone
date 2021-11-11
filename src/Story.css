@@ -27,3 +27,19 @@
     left: 20px;
     color: #fff;
 }
+
+@media screen and (max-width: 680px) {
+    .story {
+        width: 50px;
+        height: 80px;
+    }
+    .story>h4 {
+        bottom: 5px;
+        left: 5px;
+        color: #fff;
+        font-size: 10px;
+    }
+    .story_avatar {
+        margin: 3px;
+    }
+}

@@ -29,7 +29,7 @@ function MessageSender() {
     };
 
     return (
-        <div class="messageSender">
+        <div className="messageSender">
             <div className="messageSender_top">
                 <Avatar src={user.photoURL} />
                 <form>
@@ -48,11 +48,11 @@ function MessageSender() {
                 </div>
                 <div className="messageSender_option">
                         <PhotosLibraryIcon  style={{color: 'green'}} />
-                        <h3>Live Video</h3>
+                        <h3>Photo</h3>
                 </div>
                 <div className="messageSender_option">
                         <InsertEmoticonIcon style={{color: 'orange'}} />
-                        <h3>Live Video</h3>
+                        <h3>Reaction</h3>
                 </div>
             </div>
         </div>

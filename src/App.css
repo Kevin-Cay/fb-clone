@@ -5,6 +5,15 @@
 
 .app_body {
     display: flex;
-    width: 100vw;
+    width: 95vw;
     background-color: #eff2f5;
+}
+
+@media screen and (max-width: 680px) {
+    .app {
+        height: 95vh;
+    }
+    .app_body {
+        width: 95%;
+    }
 }

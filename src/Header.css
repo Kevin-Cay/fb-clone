@@ -86,3 +86,32 @@
 .header_right {
     display: flex;
 }
+
+@media screen and (max-width: 680px) {
+    .header {
+        width: 100%;
+        padding: 15px 0px;
+    }
+    .header_left {
+        display: none;
+    }
+    .header_center {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+        max-width: 250px;
+    }
+    .header_right {
+        display: none;
+    }
+    .header_option {
+        display: flex;
+        align-items: center;
+        padding: 0 5px;
+        cursor: pointer;
+    }
+    .header_info>h4 {
+        font-size: 13px;
+        margin-left: 0px;
+    }
+}
